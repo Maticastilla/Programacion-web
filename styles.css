@@ -1,0 +1,12 @@
+h1{
+    color:aqua;
+}
+body{
+    background-color: blueviolet;
+}
+#verde{
+    color: green; /*con esto, que esta asocaido a la anterior,hago que solo un elemento se ponga el un color*/
+}
+.BIGfont{
+    font-size: 90px;/* todo lo que diga BIGfont, va a tener este tamaño(es como una funcion)*/
+}   /*siempre usar px */
