@@ -1,0 +1,196 @@
+html  {
+  scroll-behavior: smooth;
+  scroll-padding-top: 140px;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .navigation h1{
+    color:rgb(139, 217, 220);
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .logo img {
+    width: 100px; /* Ajusta el ancho del logo */
+    height: auto; /* con este me mantiene  la proporción del logo */
+    margin-right: 20px; /* Espacio entre el logo y la navegación */
+  }
+  nav {
+    display: flex;
+    list-style: none;
+    position:fixed;
+    margin-left:800px;
+    padding:0;
+
+  
+  }
+  
+  nav a {
+    color:rgb(139, 217, 220);
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    
+    color:rgb(111, 187, 187);
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px;
+  }
+  
+  section {
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+  }
+  
+
+  .about-image {
+    width: 50%; 
+    height: auto; 
+    margin: 10px; 
+  }
+  
+  #columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Spacing between columns */
+  }
+  #about h1{
+    color:rgb(111, 187, 187);
+  }
+  #colabora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(170, 215, 216);
+  }
+
+
+  .image-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .image-row img {
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+  }
+  
+ /*la unica forma que encontre de que sea responsive*/
+  @media (max-width: 768px) { 
+    .image-row {
+      flex-direction: column; 
+    }
+  
+    .image-row img {
+      margin: 10px 0; 
+    }
+  }
+
+  #colabora h1{
+    color:rgb(71, 163, 163);
+  }
+
+  button{
+    font-size:1.2em;
+    font-family:fantasy;
+    font-weight: 100;
+    border-color:rgb(218, 235, 236);
+    color:cadetblue;
+}
+
+button:hover{
+  background-color:rgb(180, 219, 219);
+}
+
+#perritos h1{
+  color:rgb(71, 163, 163);
+
+}
+
+#adoptar h1{
+  color:rgb(71, 163, 163);
+
+}
+
+#adoptar img{
+  width:200px;
+  
+}
+.adopt image{
+  display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px; 
+
+}
+
+.adopt image img{
+  width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+
+
+.right {
+  position: fixed; 
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+
+.right {
+  margin: 0 auto;
+}
+
+.right h2 {
+  margin-bottom: 20px;
+}
+
+.right img {
+  width: 100px;
+  height: auto;
+}
+
