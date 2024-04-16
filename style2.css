@@ -1,0 +1,100 @@
+body{
+    margin:0;
+}
+
+button{
+    font-size:1.2em;
+    font-family:fantasy;
+    font-weight: 100;
+    border-color:rgb(218, 235, 236);
+    color:cadetblue;
+}
+
+button:hover{
+    background-color:rgb(180, 219, 219);
+}
+
+header a:hover{
+    color:rgb(23, 116, 116);
+}
+
+.conte1{
+    max-width:1200px;
+    margin:auto
+}
+
+header{
+    background-color:rgb(180, 219, 219);
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+
+header .conte1{
+    display:flex; 
+    flex-direction:column;
+}
+
+header .menu{  /*desde aca modifico todo el div*/
+    display:flex;
+}
+header a{
+    padding: 5px 12px;
+    font-weight:bold ;
+    color:cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#US{
+    background-color:rgb(180, 219, 219);
+    padding:20px;
+    margin-top:50px;
+    margin-right:500px;
+    border-top-style:dashed;
+    border-width:10px;
+    border-color:cadetblue ;
+}
+
+#US img{
+    width:200px;
+    grid: template columns 2px;
+    align-items:center;
+}
+
+.contima{
+    margin-left:50px;
+}
+
+.contenedorIMA{
+    display:flex;
+    justify-content:flex-end;
+   
+}
+
+#DOG{
+    background-color:rgb(180, 219, 219);
+    padding:20px;
+    margin-top:50px;
+    margin-left:200px;   
+}
+
+#COL{
+    background-color:rgb(180, 219, 219);
+    padding:20px;
+    margin-top:50px;
+    margin-right:200px;    
+
+}
+
+
+#ADOPT{
+    background-color:rgb(180, 219, 219);
+    padding:20px;
+    margin-top:50px;
+    margin-left:200px;   
+
+}
