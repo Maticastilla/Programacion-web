@@ -13,7 +13,7 @@ document.getElementById('miFormulario').addEventListener('submit', function(even
     
     // Muestra los resultados
     const resultadosHTML = cantidadSI.map((cantidad, index) => {
-        return `Cantidad de 'SI' en Pregunta ${index + 1}: ${cantidad}`;
+        return Cantidad de 'SI' en Pregunta ${index + 1}: ${cantidad};
     }).join('<br>');
     document.getElementById('resultado').innerHTML = resultadosHTML;
     
@@ -39,5 +39,3 @@ function contarPalabra(cadena, palabra) {
     const coincidencias = cadena.match(expresionRegular);
     return coincidencias ? coincidencias.length : 0;
 }
-
-
