@@ -1,0 +1,287 @@
+*{
+    box-sizing:border-box;
+}
+
+h1{font-size:3.5em;}
+h2{font-size:2.7em;}
+h3{font-size:1.25em;}
+p{font-size:1.25em;}
+
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+button{
+    font-size:1.5em;
+    font-weight: bold;
+    padding:10px 2opx;
+    color:black;
+    background-color:rgb(220, 209, 189);
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(214, 182, 134);
+    
+
+}
+
+header .Nav{
+    position: fixed;
+    display: flex;
+    background-color:rgb(255, 234, 195);
+    height: 25vh;
+    width: 100vw;
+    flex-direction: row;
+    
+}
+
+
+header .Nav .container .nave{
+    
+    display: flex;
+    margin-left: 10%;
+    width: 80vw;
+    justify-content: center;
+    
+    align-items: center;
+
+}
+header .Nav .container .nave a{
+
+    text-decoration: none;
+    margin-left: 10%;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+header .Nav .container .nave a:hover{
+    color: rgb(210, 172, 114);
+    
+}
+
+header .Nav .ImagenLogo img{
+    width:10vw;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+
+
+
+#US{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:90vh;
+    background-image:url(https://img.freepik.com/free-vector/cute-pattern-with-dog-faces-bones_1191-1204.jpg?size=626&ext=jpg) ;
+}
+
+/*.imagecontainer {
+    display: flex; 
+  }
+  
+  .imagecontainer img {
+    flex: 1 0 auto; 
+    margin: 0 10px; 
+    width: 200px; 
+    height: 200px;
+  }*/
+  
+
+
+#JOIN .container{
+    text-align: center;
+    padding: 200px 12px ;
+}
+
+/*.imagecontainer2 {
+    display: flex; 
+  }
+  
+  .imagecontainer2 img {
+    flex: 1 0 auto; 
+    margin: 0 10px; 
+    width: 200px; 
+    height: 200px;
+}*/
+
+#ADOPT .container2{
+    text-align: center;
+    background-color:rgb(255, 234, 195);
+    padding: 100px 0px;
+
+}
+
+#ADOPT h2{
+    margin-top: 0;
+}
+#ADOPT p{
+    display: none;
+}
+
+#ADOPT .fotos{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius:15px;
+
+}
+
+.fotos:first-child{
+    background-image:url(https://img.freepik.com/free-vector/cute-pattern-with-dog-faces-bones_1191-1204.jpg?size=626&ext=jpg) ;
+}
+
+
+
+.fotos:nth-child(2){
+    background-image:url(https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?size=626&ext=jpg&ga=GA1.2.1405441058.1714757634&semt=jpg) ;
+}
+
+    
+
+
+.fotos:nth-child(3){
+    background-image:url(https://img.freepik.com/free-vector/pattern-with-dog-faces_1191-1246.jpg?size=626&ext=jpg&ga=GA1.2.1405441058.1714757634&semt=jpg) ;
+    
+}
+
+footer{
+    background-color:rgb(255, 234, 195);
+
+}
+
+footer h3{
+    padding:50px;
+}
+footer .piepagina{
+    height: 150px;
+}
+footer h3{
+    text-align: center;
+
+}
+
+footer .imagenpie{
+    font-size: 8px;
+    text-align: center;
+    margin-top:-80px;
+}
+
+footer .imagenpie img{
+    width:50px;
+    padding-top:10px;
+}
+
+.Preguntas{
+    display: grid;
+    margin-left: 15%;
+    
+    width: 10vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.Preguntas input{
+    margin-left: 1%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 25vw;
+    height: 10vh;
+
+}
+
+#CantidadSi{
+    position: relative;
+    color: black;
+}
+
+/*footer .img-footer {
+    width: 10vw;
+    width: 10vw;
+    height: 5vh;
+
+}*/
+
+
+@media(max-width:700px){
+
+    img{
+        display: none;
+    }
+
+    
+
+
+    header .Nav{
+        position: fixed;
+        
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/551/676/small/shy-dog-logo-illustration-depicting-shy-dog-suitable-for-pet-company-free-vector.jpg);
+        
+        
+        
+        
+        
+        height: 20vh;
+        width: 100vw;
+        
+    }
+    
+    
+    header .Nav .container .nave{
+        
+        display: flex;
+        
+        margin-left: 10%;
+        width: 80vw;
+        
+        justify-content: center;
+        
+        align-items: center;
+    
+    }
+    header .Nav .container .nave a{
+    
+        text-decoration: none;
+        margin-left: 10%;
+        color: rgb(45, 41, 41);
+        font-weight: bolder;
+        z-index: 100;
+        position: relative;
+        
+        
+    }
+
+
+
+    header .Nav .container .nave h1{
+        font-size: 20px;
+        
+        
+    
+        
+        
+    }
+    
+    header .Nav .container .nave a:hover{
+        color: white;
+        
+    }
+    
+
+
+
+    
+
+}
+
+
+      
+    
+
+  
+ 
