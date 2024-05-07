@@ -99,6 +99,9 @@ header .Nav .ImagenLogo img{
     padding: 200px 12px ;
 }
 
+#JOIN .container li{
+    list-style-type: none;
+}
 /*.imagecontainer2 {
     display: flex; 
   }
