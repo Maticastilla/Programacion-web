@@ -1,4 +1,3 @@
-
 *{
     box-sizing:border-box;
 }
@@ -238,11 +237,11 @@ footer .imagenpie img{
     font-size: 1em;
 }
 
-/* Button Styles */
+
 button[type="submit"] {
     width: 100%;
     padding: 15px;
-    background-color: #4CAF50;
+    background-color: rgb(255, 234, 195);
     color: white;
     border: none;
     border-radius: 5px;
@@ -251,10 +250,10 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color:rgb(255, 234, 195);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 600px) {
     #miFormulario {
         padding: 15px;
@@ -381,7 +380,7 @@ button[type="submit"]:hover {
 }
 .formulario-turno button {
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: rgb(255, 234, 195);
     color: #fff;
     border: none;
     border-radius: 3px;
