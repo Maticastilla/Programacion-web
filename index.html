@@ -85,6 +85,44 @@
       </div>
     </section>
 
+    <div class="formulario-turno">
+        <h2>Solicitar Turno</h2>
+        <form id="form-turno">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="servicio">Tipo de Servicio:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="">Seleccione un servicio</option>
+                <option value="veterinaria">Veterinaria</option>
+                <option value="banio">Baño</option>
+            </select>
+
+            <label for="mascota">Nombre de la Mascota:</label>
+            <input type="text" id="mascota" name="mascota" required>
+
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" name="raza" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="motivo">Motivo del Turno:</label>
+            <textarea id="motivo" name="motivo" rows="4" required></textarea>
+
+            <button type="submit">Solicitar Turno</button>
+        </form>
+    </div>
+
 
     <section id="ADOPT">
         <div class="container2">
@@ -128,38 +166,62 @@
 
 
 
-
+    <div class="contenedor-formulario">
         <form id="miFormulario">
-            <h3>¿Cual es tu perrito ideal?</h3>
-            
-            <h3>Responde las preguntas y te decimos cual de todos nuestros refugiados es el ideal para vos</h3>
-            <label for="Pregunta1">Pregunta 1: ¿Vives en un departamento? SI/NO</label>
-            <input type="text" id="Pregunta1" name="Pregunta1"><br>
-       
-            <label for="Pregunta2">Pregunta 2:¿Tienes un patio o jardín grande?SI/NO</label>
-            <input type="text" id="Pregunta2" name="Pregunta2"><br>
-       
-            <label for="Pregunta3">Pregunta 3:¿Buscas un perro activo que necesite mucho ejercicio?SI/NO</label>
-            <input type="text" id="Pregunta3" name="Pregunta3"><br>
-       
-            <label for="Pregunta4">Pregunta 4:¿Tienes otros perros/mascota en casa? SI/NO</label>
-            <input type="text" id="Pregunta4" name="Pregunta4"><br>
-       
-            <label for="Pregunta5">Pregunta 5:¿Estás dispuesto a entrenar y educar al perro?SI/NO</label>
-            <input type="text" id="Pregunta5" name="Pregunta5"><br>
-       
-            <label for="Pregunta6">Pregunta 6:¿Prefieres un perro más reservado o independiente?SI/NO</label>
-            <input type="text" id="Pregunta6" name="Pregunta6"><br>
-       
+            <h2>¿Cuál es tu perrito ideal?</h2>
+            <h3>Responde las preguntas y te decimos cuál de todos nuestros refugiados es el ideal para vos</h3>
+        
+            <div class="form-group">
+                <label for="Pregunta1"> ¿Vives en un departamento? SI/NO</label>
+                <input type="text" id="Pregunta1" name="Pregunta1">
+            </div>
+        
+            <div class="form-group">
+                <label for="Pregunta2"> ¿Tienes un patio o jardín grande? SI/NO</label>
+                <input type="text" id="Pregunta2" name="Pregunta2">
+            </div>
+        
+            <div class="form-group">
+                <label for="Pregunta3"> ¿Buscas un perro activo que necesite mucho ejercicio? SI/NO</label>
+                <input type="text" id="Pregunta3" name="Pregunta3">
+            </div>
+        
+            <div class="form-group">
+                <label for="Pregunta4"> ¿Tienes otros perros/mascota en casa? SI/NO</label>
+                <input type="text" id="Pregunta4" name="Pregunta4">
+            </div>
+        
+            <div class="form-group">
+                <label for="Pregunta5"> ¿Estás dispuesto a entrenar y educar al perro? SI/NO</label>
+                <input type="text" id="Pregunta5" name="Pregunta5">
+            </div>
+        
+            <div class="form-group">
+                <label for="Pregunta6"> ¿Prefieres un perro más reservado o independiente? SI/NO</label>
+                <input type="text" id="Pregunta6" name="Pregunta6">
+            </div>
+        
             <button type="submit">Enviar</button>
         </form>
+    </div>    
        
         <h5 id="resultado"></h5>
         <img id="imagenResultado" src="" alt="Imagen resultado" style="display: none;">
+
+        <h2>Calculadora de Comida para Perros</h2>
+        <label for="numPerros">Número de Perros:</label>
+        <input type="number" id="numPerros" name="numPerros" required>
+        <br>
+        <label for="numDias">Número de Días:</label>
+        <input type="number" id="numDias" name="numDias" required>
+        <br>
+        <button onclick="calcularComida()">Calcular</button>
+        <br><br>
+        <h2 id="resultado"></h2>
        
 
 
-        <script src="index.js"></script>
+        <script src="indexjava.js"></script>
        
 
 
