@@ -1,0 +1,388 @@
+*{
+    box-sizing:border-box;
+}
+
+h1{font-size:3.5em;}
+h2{font-size:2.7em;}
+h3{font-size:1.25em;}
+p{font-size:1.25em;}
+
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+button{
+    font-size:1.5em;
+    font-weight: bold;
+    padding:10px 2opx;
+    color:black;
+    background-color:rgb(220, 209, 189);
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(214, 182, 134);
+    
+
+}
+
+header .Nav{
+    position: fixed;
+    display: flex;
+    background-color:rgb(255, 234, 195);
+    height: 25vh;
+    width: 100vw;
+    flex-direction: row;
+    
+}
+
+
+header .Nav .container .nave{
+    
+    display: flex;
+    margin-left: 10%;
+    width: 80vw;
+    justify-content: center;
+    
+    align-items: center;
+
+}
+header .Nav .container .nave a{
+
+    text-decoration: none;
+    margin-left: 10%;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+header .Nav .container .nave a:hover{
+    color: rgb(210, 172, 114);
+    
+}
+
+header .Nav .ImagenLogo img{
+    width:10vw;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+
+
+
+#US{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:90vh;
+    background-image:url(https://img.freepik.com/free-vector/cute-pattern-with-dog-faces-bones_1191-1204.jpg?size=626&ext=jpg) ;
+}
+
+/*.imagecontainer {
+    display: flex; 
+  }
+  
+  .imagecontainer img {
+    flex: 1 0 auto; 
+    margin: 0 10px; 
+    width: 200px; 
+    height: 200px;
+  }*/
+  
+
+
+#JOIN .container{
+    text-align: center;
+    padding: 200px 12px ;
+}
+
+#JOIN .container li{
+    list-style-type: none;
+}
+/*.imagecontainer2 {
+    display: flex; 
+  }
+  
+  .imagecontainer2 img {
+    flex: 1 0 auto; 
+    margin: 0 10px; 
+    width: 200px; 
+    height: 200px;
+}*/
+
+#ADOPT .container2{
+    text-align: center;
+    background-color:rgb(255, 234, 195);
+    padding: 100px 0px;
+
+}
+
+#ADOPT h2{
+    margin-top: 0;
+}
+#ADOPT p{
+    display: none;
+}
+
+#ADOPT .fotos{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius:15px;
+
+}
+
+.fotos:first-child{
+    background-image:url(https://img.freepik.com/free-vector/cute-pattern-with-dog-faces-bones_1191-1204.jpg?size=626&ext=jpg) ;
+}
+
+
+
+.fotos:nth-child(2){
+    background-image:url(https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?size=626&ext=jpg&ga=GA1.2.1405441058.1714757634&semt=jpg) ;
+}
+
+    
+
+
+.fotos:nth-child(3){
+    background-image:url(https://img.freepik.com/free-vector/pattern-with-dog-faces_1191-1246.jpg?size=626&ext=jpg&ga=GA1.2.1405441058.1714757634&semt=jpg) ;
+    
+}
+
+
+
+footer{
+    background-color:rgb(255, 234, 195);
+
+}
+
+footer h3{
+    padding:50px;
+}
+footer .piepagina{
+    height: 150px;
+}
+footer h3{
+    text-align: center;
+
+}
+
+footer .imagenpie{
+    font-size: 8px;
+    text-align: center;
+    margin-top:-80px;
+}
+
+footer .imagenpie img{
+    width:50px;
+    padding-top:10px;
+}
+
+
+/*footer .img-footer {
+    width: 10vw;
+    width: 10vw;
+    height: 5vh;
+
+}*/
+
+#miFormulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#miFormulario h2, #miFormulario h3 {
+    text-align: center;
+    color: #333;
+}
+
+#miFormulario h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#miFormulario h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(255, 234, 195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(255, 234, 195);
+}
+
+
+@media (max-width: 600px) {
+    #miFormulario {
+        padding: 15px;
+    }
+
+    #miFormulario h2 {
+        font-size: 1.5em;
+    }
+
+    #miFormulario h3 {
+        font-size: 1em;
+    }
+
+    .form-group label {
+        font-size: 1em;
+    }
+
+    .form-group input[type="text"] {
+        font-size: 0.9em;
+    }
+
+    button[type="submit"] {
+        font-size: 1em;
+    }
+}
+
+
+
+@media(max-width:700px){
+
+    img{
+        display: none;
+    }
+
+    
+
+
+    header .Nav{
+        position: fixed;
+        
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/551/676/small/shy-dog-logo-illustration-depicting-shy-dog-suitable-for-pet-company-free-vector.jpg);
+        
+        
+        
+        
+        
+        height: 20vh;
+        width: 100vw;
+        
+    }
+    
+    
+    header .Nav .container .nave{
+        
+        display: flex;
+        
+        margin-left: 10%;
+        width: 80vw;
+        
+        justify-content: center;
+        
+        align-items: center;
+    
+    }
+    header .Nav .container .nave a{
+    
+        text-decoration: none;
+        margin-left: 10%;
+        color: rgb(45, 41, 41);
+        font-weight: bolder;
+        z-index: 100;
+        position: relative;
+        
+        
+    }
+
+
+
+    header .Nav .container .nave h1{
+        font-size: 20px;
+        
+        
+    
+        
+        
+    }
+    
+    header .Nav .container .nave a:hover{
+        color: white;
+        
+    }
+    #imagenResultado{
+        height:20vh;
+    }
+    
+    
+
+}
+
+.formulario-turno {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formulario-turno h2 {
+    margin-bottom: 20px;
+}
+.formulario-turno label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.formulario-turno input, .formulario-turno select, .formulario-turno textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.formulario-turno button {
+    padding: 10px 15px;
+    background-color: rgb(255, 234, 195);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
